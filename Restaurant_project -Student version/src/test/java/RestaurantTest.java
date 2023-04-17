@@ -89,7 +89,7 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<<<<<Total Price calc>>>>>>>>>>>>>>
     @Test
     public void check_items_total_amount_for_selected_items_from_menu() {
-        List<String> itemSelected = Arrays.asList("Vegetable lasagne","Vegetable lasagne");
+        List<String> itemSelected = Arrays.asList("Vegetable lasagne","Sweet corn soup");
         //119+269 = 388
         assertEquals(388,restaurant.totalValue(itemSelected));
     }

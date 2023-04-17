@@ -69,4 +69,10 @@ public class Restaurant {
         return name;
     }
 
+    //Adding the new method for calculating the total price of the order
+    // <methodName>(<list of itemNames>)
+    public int totalValue(List<String> itemNames) {
+        int totalPrice = 0;
+        return totalPrice;
+    }
 }
